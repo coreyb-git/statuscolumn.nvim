@@ -1,3 +1,5 @@
+vim.notify("asdf")
+
 -- TODO: fights with smoothscroll
 vim.opt.smoothscroll = false
 
