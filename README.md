@@ -1,4 +1,4 @@
-Custom opinionated Neovim statuscolumn, similar to folke's statuscolumn in his mega repo.
+Opinionated Neovim statuscolumn, similar to folke's statuscolumn in the mega repo.
 
 Lazy plugin:
 
