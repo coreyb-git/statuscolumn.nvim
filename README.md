@@ -2,7 +2,7 @@ Custom opinionated Neovim statuscolumn, similar to folke's statuscolumn in the s
 
 DAP, marks, and diagnostics icons are in the left column, git and folds in the right column.
 
-[Example](./example.png)
+![Example](./example.png)
 
 Lazy plugin:
 
