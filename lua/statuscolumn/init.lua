@@ -167,7 +167,11 @@ local function get_line_signs(bufnr)
 			local hl_group = details.sign_hl_group or ""
 
 			local is_dapsign = hl_group:find("^Dap")
-			local is_gitsign = hl_group:find("Git")
+			local is_gitsign = hl_group:find("Git") -- Git Signs plugin
+			if not is_gitsign then
+				is_gitsign = hl_group:find("MiniDiff") -- MiniDiff plugin
+			end
+
 			local is_diagnosticsign = hl_group:find("Diagnostic")
 
 			-- NOTE: testing other signs with this note.
